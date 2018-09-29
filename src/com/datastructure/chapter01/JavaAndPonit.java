@@ -17,7 +17,7 @@ public class JavaAndPonit {
 
         People p3 = new People("james","33");
         People p4 = new People("james", "33");
-        System.out.println("p3 = p4? \n"+(p3 == p4));  //p3 p4值相同，但是存储的地址不同。 ---false
+        System.out.println("p3 = p4? \n"+(p3 == p4));  //p3 p4值相同，但是存储的地址不同。 ----false
 
     }
 }
